@@ -1,0 +1,889 @@
+@media screen and (max-width: 479px) {
+  section.landing {
+    padding: 40px 24px;
+  }
+}
+@media screen and (min-width: 480px) {
+  section.landing {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 712px) {
+  .btn-icon-menu {
+    display: block;
+  }
+  .header {
+    padding: 0 40px;
+  }
+  .header .main-nav {
+    display: none !important;
+  }
+  section#hero .banner {
+    flex-wrap: wrap;
+  }
+  section#hero .banner .title {
+    min-width: 190px;
+    max-width: 306px;
+  }
+  section#hero .banner .location {
+    min-width: 295px;
+    max-width: 306px;
+  }
+}
+@media screen and (min-width: 713px) {
+  .btn-icon-menu {
+    display: none !important;
+  }
+  .header {
+    padding: 0 80px;
+  }
+  .header .main-nav {
+    display: flex !important;
+  }
+  section.section, section.landing {
+    padding: 40px 80px;
+  }
+  section#hero .banner {
+    flex-wrap: nowrap;
+  }
+  section#hero .banner .title {
+    min-width: 195px;
+  }
+  section#hero .banner .location {
+    min-width: 338px;
+  }
+}
+@media screen and (max-width: 943px) {
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+  .btn-icon, .btn-icon-menu, .btn-menuitem, .btn-secondary, .btn-primary {
+    padding: 8px 16px;
+  }
+  .btn-menuitem {
+    padding: 4px 0 2px;
+  }
+  .btn-icon, .btn-icon-menu {
+    padding: 12px;
+  }
+  .btn-icon-menu svg {
+    width: 18px;
+    height: 18px;
+  }
+  .icon-padding {
+    padding: 8px;
+  }
+  body, body p, body button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-family: "Josefin Sans", serif;
+  }
+  body h1 {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h2 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h3 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-family: "Josefin Sans", serif;
+  }
+  .header .main-nav {
+    gap: 32px;
+  }
+  .header .main-nav .btn-menuitem {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  .header .main-nav ul {
+    gap: 24px;
+  }
+  .header-logo {
+    width: 80px;
+    height: 64px;
+  }
+  section .section-heading, section .menu-category {
+    width: 100%;
+    max-width: 553px;
+  }
+  section .section-heading {
+    gap: 4px;
+  }
+  section .section-heading .description {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-family: "Josefin Sans", serif;
+  }
+  section .section-body {
+    gap: 24px;
+  }
+  section#hero {
+    gap: 40px;
+  }
+  section#hero .banner {
+    gap: 20px;
+  }
+  section#hero .banner .title {
+    gap: 4px;
+    padding-top: 8px;
+    flex: 1;
+  }
+  section#hero .banner .title-top {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .banner .title-bottom {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .banner .location {
+    gap: 8px;
+    flex: 1;
+  }
+  section#hero .banner .location-graphic {
+    width: 80px;
+    height: 80px;
+  }
+  section#hero .banner .location-card {
+    gap: 4px;
+    padding: 16px 16px 16px 8px;
+    flex: 1;
+  }
+  section#hero .banner .location-address {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+    gap: 8px;
+  }
+  section#hero .banner .location-address ul {
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .countdown {
+    gap: 8px;
+  }
+  section#hero .countdown-heading {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .countdown-timer {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  section#hero .countdown-timer .timer-block {
+    width: 123px;
+    gap: 8px;
+  }
+  section#hero .countdown-timer .timer-block-number {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+    padding: 4px 0;
+  }
+  section#hero .countdown-timer .timer-block-value {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#menu {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 16px;
+  }
+  section#menu .menu-category {
+    gap: 4px;
+  }
+  section#menu .menu-category-heading {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  section#menu .menu-category-list {
+    gap: 24px;
+  }
+  section#menu .menu-category-list .list-item-info {
+    gap: 24px;
+  }
+  section#menu .menu-category-list .list-item-info .description {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    font-family: "Josefin Sans", serif;
+    padding-top: 4px;
+  }
+  section#contact {
+    gap: 16px;
+    padding-bottom: 160px;
+  }
+  section#contact .contact-list {
+    gap: 20px;
+  }
+  section#contact .contact-card {
+    width: 100%;
+    padding: 16px 0;
+  }
+  section#contact .contact-card-info {
+    gap: 4px;
+  }
+  section#contact .contact-card svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 944px) {
+  html {
+    scroll-padding-top: 96px;
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+  .btn-icon, .btn-icon-menu, .btn-menuitem, .btn-secondary, .btn-primary {
+    padding: 16px 20px;
+  }
+  .btn-menuitem {
+    padding: 6px 0 4px;
+  }
+  .btn-icon, .btn-icon-menu {
+    padding: 12px;
+  }
+  .btn-icon svg, .btn-icon-menu svg {
+    width: 20px;
+    height: 20px;
+  }
+  .icon-padding {
+    padding: 12px;
+  }
+  body, body p, body button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  body h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h2 {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h3 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h4 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  body a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  .header {
+    padding: 0 120px;
+  }
+  .header .main-nav {
+    gap: 64px;
+  }
+  .header .main-nav .btn-menuitem {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  .header .main-nav ul {
+    gap: 40px;
+  }
+  .header-logo {
+    width: 120px;
+    height: 80px;
+  }
+  section.landing, section.section {
+    padding: 80px 120px;
+  }
+  section .section-heading, section .menu-category {
+    width: calc(6 * (100% - 24px) / 8 + 24px);
+    max-width: none;
+  }
+  section .section-heading {
+    gap: 8px;
+  }
+  section .section-heading .description {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section .section-body {
+    gap: 40px;
+  }
+  section#hero {
+    gap: 40px;
+  }
+  section#hero .banner {
+    flex-wrap: nowrap;
+    gap: 64px;
+  }
+  section#hero .banner .title {
+    min-width: unset;
+    width: calc(3 * (100% + 24px) / 8 - 24px);
+    gap: 8px;
+    padding-top: 16px;
+  }
+  section#hero .banner .title-top {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .banner .title-bottom {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .banner .location {
+    min-width: unset;
+    max-width: calc(4 * (100% + 24px) / 8 - 24px);
+    width: 100%;
+    gap: 16px;
+  }
+  section#hero .banner .location-graphic {
+    width: 96px;
+    height: 96px;
+  }
+  section#hero .banner .location-card {
+    gap: 8px;
+    padding: 16px 24px 16px 8px;
+    flex: 1;
+  }
+  section#hero .banner .location-address {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+    gap: 8px;
+    padding: 8px 0;
+  }
+  section#hero .banner .location-address ul {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    font-family: "Josefin Sans", serif;
+    gap: 4px;
+  }
+  section#hero .countdown {
+    gap: 8px;
+  }
+  section#hero .countdown-heading {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#hero .countdown-timer {
+    gap: 24px;
+    width: calc(4 * (100% + 24px) / 8 - 24px);
+  }
+  section#hero .countdown-timer .timer-block {
+    flex: 1;
+    gap: 8px;
+  }
+  section#hero .countdown-timer .timer-block-number {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+    padding: 8px 0;
+  }
+  section#hero .countdown-timer .timer-block-value {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-family: "Josefin Sans", serif;
+  }
+  section#menu {
+    gap: 24px;
+  }
+  section#menu .menu-category {
+    gap: 8px;
+  }
+  section#menu .menu-category-heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0;
+    font-family: "Carter One", serif;
+  }
+  section#menu .menu-category-list {
+    gap: 32px;
+  }
+  section#menu .menu-category-list .list-item-info {
+    gap: 40px;
+  }
+  section#menu .menu-category-list .list-item-info .description {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    font-family: "Josefin Sans", serif;
+    padding-top: 4px;
+  }
+  section#contact {
+    gap: 24px;
+    padding-bottom: 200px;
+  }
+  section#contact .contact-list {
+    gap: 24px;
+  }
+  section#contact .contact-card {
+    width: calc(4 * (100% + 24px) / 12 - 24px);
+    gap: 4px;
+    padding: 24px 0;
+  }
+  section#contact .contact-card-info {
+    gap: 8px;
+  }
+  section#contact .contact-card svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header {
+    padding: 0 160px;
+  }
+  section.landing, section.section {
+    padding: 80px 160px;
+  }
+  section .section-heading, section .menu-category {
+    width: calc(8 * (100% + 24px) / 12 - 24px);
+  }
+  section#hero .banner .title, section#hero .banner .location {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  section#hero .countdown-timer {
+    width: calc(6 * (100% + 24px) / 12 - 24px);
+  }
+}
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #182939;
+}
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.header-nav {
+  width: 100%;
+  justify-content: flex-end;
+}
+.header-nav, .header-nav .main-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav ul, .header-nav .main-nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.modal-container {
+  display: none;
+  padding: 24px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  background-color: #182939;
+}
+.modal-container.open {
+  display: block;
+}
+.modal-container .main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+.modal-container .main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.btn-icon, .btn-icon-menu, .btn-menuitem, .btn-secondary, .btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.btn-primary {
+  gap: 8px;
+  background: #1B7C5D;
+  color: #FFF;
+  text-decoration: none;
+}
+.btn-primary svg {
+  fill: #FFF;
+}
+.btn-primary:hover, .btn-primary:active {
+  background: #66A792;
+  color: #FFF;
+}
+
+.btn-secondary {
+  gap: 8px;
+  outline: 1px solid #959DA4;
+  outline-offset: -1px;
+  background: none;
+  color: #1B7C5D;
+  text-decoration: none;
+}
+.btn-secondary svg {
+  fill: #1B7C5D;
+}
+.btn-secondary:hover, .btn-secondary:active {
+  background: #B7C5C8;
+  color: #1B7C5D;
+}
+
+.btn-menuitem {
+  background: none;
+  border-bottom: 2px solid #B7C5C8;
+  color: #FFF;
+  border-radius: 0;
+}
+.btn-menuitem:hover, .btn-menuitem:active, .btn-menuitem.btn-active {
+  color: #E6A337;
+  border-bottom-color: #F4D5A3;
+}
+
+.btn-icon {
+  line-height: 0;
+  outline: 1px solid #959DA4;
+  outline-offset: -1px;
+}
+.btn-icon, .btn-icon-menu {
+  line-height: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background: none;
+  border: none;
+}
+.btn-icon svg, .btn-icon-menu svg {
+  fill: #FFF;
+}
+.btn-icon:hover, .btn-icon:active, .btn-icon.btn-active {
+  background-color: #B7C5C8;
+}
+.btn-icon:hover svg, .btn-icon:active svg, .btn-icon.btn-active svg {
+  fill: #E6A337;
+}
+.btn-icon-menu:hover, .btn-icon-menu:active, .btn-icon-menu.btn-active, .btn-icon#ig-link:hover, .btn-icon#ig-link:active, .btn-icon#ig-link.btn-active {
+  background-color: #64707A;
+  outline-color: #F4D5A3;
+}
+.btn-icon-menu:hover svg, .btn-icon-menu:active svg, .btn-icon-menu.btn-active svg, .btn-icon#ig-link:hover svg, .btn-icon#ig-link:active svg, .btn-icon#ig-link.btn-active svg {
+  fill: #FFF;
+}
+.btn-icon-menu {
+  position: relative;
+}
+.btn-icon-menu svg.close {
+  position: absolute;
+}
+.btn-icon-menu .rotate {
+  visibility: hidden;
+  opacity: 0;
+  transform: rotate(90deg);
+  transition: transform 0.9s, opacity 0.4s;
+}
+.btn-icon-menu .rotate-reset {
+  visibility: visible;
+  opacity: 1;
+  transform: rotate(0);
+  transition: transform 0.6s, opacity 0.4s;
+}
+
+section.landing, section.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.landing .section-heading, section.section .section-heading {
+  display: flex;
+  flex-direction: column;
+}
+section.landing .section-heading-container, section.section .section-heading-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+section.landing .section-body, section.section .section-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+section.landing#hero, section.section#hero {
+  position: relative;
+  background-color: #1B7C5D;
+}
+section.landing#hero .icon-deco, section.section#hero .icon-deco {
+  position: absolute;
+  opacity: 0.35;
+}
+section.landing#hero .icon-deco svg, section.section#hero .icon-deco svg {
+  fill: #B7C5C8;
+}
+section.landing#hero .icon-deco#store, section.section#hero .icon-deco#store {
+  rotate: -12deg;
+  top: 70%;
+  left: 18%;
+}
+section.landing#hero .icon-deco#store svg, section.section#hero .icon-deco#store svg {
+  scale: 13;
+}
+section.landing#hero .icon-deco#kitchen, section.section#hero .icon-deco#kitchen {
+  rotate: -8deg;
+  top: -20px;
+  left: 55%;
+}
+section.landing#hero .icon-deco#kitchen svg, section.section#hero .icon-deco#kitchen svg {
+  scale: 8;
+}
+section.landing#hero .icon-deco#plant, section.section#hero .icon-deco#plant {
+  rotate: 18deg;
+  top: 88%;
+  right: 23%;
+}
+section.landing#hero .icon-deco#plant svg, section.section#hero .icon-deco#plant svg {
+  scale: 8;
+}
+section.landing#hero .banner, section.section#hero .banner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+section.landing#hero .banner .title, section.section#hero .banner .title {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+}
+section.landing#hero .banner .location, section.section#hero .banner .location {
+  display: flex;
+  align-items: center;
+}
+section.landing#hero .banner .location-graphic, section.section#hero .banner .location-graphic {
+  border-radius: 100px;
+  background-color: #F4D5A3;
+}
+section.landing#hero .banner .location-card, section.section#hero .banner .location-card {
+  display: flex;
+  background-color: #B7C5C8;
+}
+section.landing#hero .banner .location-address, section.landing#hero .banner .location ul, section.section#hero .banner .location-address, section.section#hero .banner .location ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+section.landing#hero .countdown, section.section#hero .countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+section.landing#hero .countdown-heading, section.section#hero .countdown-heading {
+  color: #FFF;
+}
+section.landing#hero .countdown-timer, section.section#hero .countdown-timer {
+  display: flex;
+  justify-content: center;
+}
+section.landing#hero .countdown-timer .timer-block, section.section#hero .countdown-timer .timer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.landing#hero .countdown-timer .timer-block > *, section.section#hero .countdown-timer .timer-block > * {
+  text-align: center;
+  width: 100%;
+  background-color: #B7C5C8;
+}
+section.landing#menu, section.section#menu {
+  background-color: #B7C5C8;
+  color: #1B7C5D;
+}
+section.landing#menu .menu-category, section.section#menu .menu-category {
+  display: flex;
+  flex-direction: column;
+}
+section.landing#menu .menu-category-list, section.section#menu .menu-category-list {
+  display: flex;
+  flex-direction: column;
+}
+section.landing#menu .menu-category-list .list-item, section.section#menu .menu-category-list .list-item {
+  list-style: none;
+  font-weight: 600;
+}
+section.landing#menu .menu-category-list .list-item-info, section.section#menu .menu-category-list .list-item-info {
+  display: flex;
+  justify-content: space-between;
+}
+section.landing#contact .contact-list, section.section#contact .contact-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+section.landing#contact .contact-card, section.landing#contact .contact-card-info, section.section#contact .contact-card, section.section#contact .contact-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B7C5C8;
+}
+section.landing#contact .contact-card > *, section.landing#contact .contact-card-info > *, section.section#contact .contact-card > *, section.section#contact .contact-card-info > * {
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=styles.css.map */
