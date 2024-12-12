@@ -1707,7 +1707,6 @@ ol.stage-container li:before {
 
 html {
   scroll-behavior: smooth;
-  display: none;
 }
 
 body {

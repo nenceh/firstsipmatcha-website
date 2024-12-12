@@ -106,7 +106,7 @@ $(document).ready(function(){
     })
 
     $(window).on("load", function(){
-        $('html').show()
+        // $('html').show()
     })
 
     $(window).on("load resize", function (){

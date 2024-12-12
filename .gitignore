@@ -7,3 +7,10 @@ img/svg/logo-og.svg
 img/svg/logo-tag.svg
 img/svg/logo-name-tag.svg
 img/svg/menu.svg
+css/_about.scss
+css/_header-nav.scss
+css/_home.scss
+css/_menu.scss
+css/_variables.scss
+css/styles.css.map
+css/styles.scss
